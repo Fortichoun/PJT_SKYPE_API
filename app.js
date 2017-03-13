@@ -1,5 +1,5 @@
 const http = require('http');
-const io = require('socket.io')
+// const io = require('socket.io');
 
 const server = http.createServer((req, res) => {
   console.log('A client just connected');
