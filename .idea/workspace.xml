@@ -2,10 +2,691 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c870a2c-2806-4b22-8842-9ed30e07ff15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/string_decoder/index.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/acorn" afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/eslint" afterPath="$PROJECT_DIR$/node_modules/.bin/eslint" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/js-yaml" afterPath="$PROJECT_DIR$/node_modules/.bin/js-yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/.npmignore" afterPath="$PROJECT_DIR$/node_modules/acorn/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/AUTHORS" afterPath="$PROJECT_DIR$/node_modules/acorn/AUTHORS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/acorn/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/LICENSE" afterPath="$PROJECT_DIR$/node_modules/acorn/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/README.md" afterPath="$PROJECT_DIR$/node_modules/acorn/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/bin/acorn" afterPath="$PROJECT_DIR$/node_modules/acorn/bin/acorn" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/acorn_loose.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/walk.es.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/walk.es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/dist/walk.js" afterPath="$PROJECT_DIR$/node_modules/acorn/dist/walk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/package.json" afterPath="$PROJECT_DIR$/node_modules/acorn/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/bin/acorn.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/bin/acorn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/expression.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/expression.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/identifier.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/identifier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/index.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/location.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/locutil.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/locutil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/expression.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/loose/expression.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/index.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/loose/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/parseutil.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/loose/parseutil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/state.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/loose/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/statement.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/loose/statement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/loose/tokenize.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/loose/tokenize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/lval.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/lval.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/node.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/options.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/parseutil.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/parseutil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/state.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/statement.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/statement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/tokencontext.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/tokencontext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/tokenize.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/tokenize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/tokentype.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/tokentype.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/util.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/walk/index.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/walk/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/acorn/src/whitespace.js" afterPath="$PROJECT_DIR$/node_modules/acorn/src/whitespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/.tonic_example.js" afterPath="$PROJECT_DIR$/node_modules/ajv/.tonic_example.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/LICENSE" afterPath="$PROJECT_DIR$/node_modules/ajv/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/README.md" afterPath="$PROJECT_DIR$/node_modules/ajv/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.bundle.js" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js.map" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/ajv.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/dist/nodent.min.js" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/nodent.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/dist/regenerator.min.js" afterPath="$PROJECT_DIR$/node_modules/ajv/dist/regenerator.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/ajv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/async.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/cache.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/_rules.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/_rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/equal.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/equal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/formats.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/formats.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/index.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/resolve.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/resolve.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/rules.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/schema_obj.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/schema_obj.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/ucs2length.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/ucs2length.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/util.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/compile/validation_error.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/compile/validation_error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limit.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limit.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitItems.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitItems.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitLength.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitLength.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitProperties.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/_limitProperties.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/allOf.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/allOf.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/anyOf.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/anyOf.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/coerce.def" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/coerce.def" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/custom.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/custom.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/defaults.def" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/defaults.def" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/definitions.def" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/definitions.def" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/dependencies.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/dependencies.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/enum.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/enum.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/errors.def" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/errors.def" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/format.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/format.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/items.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/items.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/missing.def" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/missing.def" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/multipleOf.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/multipleOf.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/not.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/not.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/oneOf.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/oneOf.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/pattern.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/pattern.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/properties.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/properties.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/ref.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/ref.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/required.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/required.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/uniqueItems.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/uniqueItems.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/_formatLimit.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/_formatLimit.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/constant.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/constant.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/patternRequired.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/patternRequired.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/switch.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/v5/switch.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dot/validate.jst" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dot/validate.jst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/README.md" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_formatLimit.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_formatLimit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limit.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitItems.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitItems.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitLength.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitLength.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitProperties.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/_limitProperties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/allOf.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/allOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/anyOf.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/anyOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/constant.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/constant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/custom.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/dependencies.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/dependencies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/enum.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/enum.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/format.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/format.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/items.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/items.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/multipleOf.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/multipleOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/not.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/not.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/oneOf.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/oneOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/pattern.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/pattern.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/patternRequired.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/patternRequired.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/properties.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/ref.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/ref.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/required.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/required.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/switch.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/uniqueItems.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/uniqueItems.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/validate.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/dotjs/validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/keyword.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/keyword.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-draft-04.json" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-draft-04.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-v5.json" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/refs/json-schema-v5.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/lib/v5.js" afterPath="$PROJECT_DIR$/node_modules/ajv/lib/v5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/package.json" afterPath="$PROJECT_DIR$/node_modules/ajv/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/.eslintrc.yml" afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/.eslintrc.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/bundle.js" afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/compile-dots.js" afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/compile-dots.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/info" afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/prepare-tests" afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/prepare-tests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/travis-gh-pages" afterPath="$PROJECT_DIR$/node_modules/ajv/scripts/travis-gh-pages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/.lint" afterPath="$PROJECT_DIR$/node_modules/es6-map/.lint" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/.npmignore" afterPath="$PROJECT_DIR$/node_modules/es6-map/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/es6-map/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/CHANGES" afterPath="$PROJECT_DIR$/node_modules/es6-map/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/LICENSE" afterPath="$PROJECT_DIR$/node_modules/es6-map/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/README.md" afterPath="$PROJECT_DIR$/node_modules/es6-map/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/implement.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/implement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/is-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/is-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/is-map.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/is-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/is-native-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/is-native-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/lib/iterator-kinds.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/lib/iterator-kinds.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/lib/iterator.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/lib/iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/lib/primitive-iterator.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/lib/primitive-iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/polyfill.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/polyfill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/primitive/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/primitive/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/implement.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/implement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/is-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/is-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/is-map.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/is-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/is-native-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/is-native-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/lib/iterator-kinds.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/lib/iterator-kinds.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/lib/iterator.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/lib/iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/lib/primitive-iterator.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/lib/primitive-iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/polyfill.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/polyfill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/primitive/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/primitive/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/test/valid-map.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/test/valid-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-map/valid-map.js" afterPath="$PROJECT_DIR$/node_modules/es6-map/valid-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/.lint" afterPath="$PROJECT_DIR$/node_modules/es6-set/.lint" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/.npmignore" afterPath="$PROJECT_DIR$/node_modules/es6-set/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/es6-set/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/CHANGES" afterPath="$PROJECT_DIR$/node_modules/es6-set/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/LICENSE" afterPath="$PROJECT_DIR$/node_modules/es6-set/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/README.md" afterPath="$PROJECT_DIR$/node_modules/es6-set/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/ext/copy.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/ext/copy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/ext/every.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/ext/every.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/ext/filter.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/ext/filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/ext/get-first.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/ext/get-first.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/ext/get-last.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/ext/get-last.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/ext/some.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/ext/some.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/implement.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/implement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/is-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/is-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/is-native-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/is-native-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/is-set.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/is-set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/lib/iterator.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/lib/iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/lib/primitive-iterator.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/lib/primitive-iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-set/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/polyfill.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/polyfill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/primitive/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/primitive/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/ext/copy.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/ext/copy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/ext/every.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/ext/every.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/ext/filter.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/ext/filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/ext/get-first.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/ext/get-first.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/ext/get-last.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/ext/get-last.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/ext/some.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/ext/some.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/implement.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/implement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/is-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/is-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/is-native-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/is-native-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/is-set.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/is-set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/lib/iterator.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/lib/iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/lib/primitive-iterator.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/lib/primitive-iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/polyfill.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/polyfill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/primitive/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/primitive/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/test/valid-set.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/test/valid-set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-set/valid-set.js" afterPath="$PROJECT_DIR$/node_modules/es6-set/valid-set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/.lint" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/.lint" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/.npmignore" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/CHANGES" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/LICENSE" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/README.md" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/implement.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/implement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/is-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/is-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/is-native-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/is-native-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/is-weak-map.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/is-weak-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/package.json" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/polyfill.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/polyfill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/test/implement.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/test/implement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/test/index.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/test/is-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/test/is-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/test/is-native-implemented.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/test/is-native-implemented.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/test/is-weak-map.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/test/is-weak-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/test/polyfill.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/test/polyfill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/test/valid-weak-map.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/test/valid-weak-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/valid-weak-map.js" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/valid-weak-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/.babelrc" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/.eslintrc" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/README.md" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/index.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/legacy.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/legacy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/package.json" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/best-practices.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/best-practices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/errors.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/es6.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/es6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/imports.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/imports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/node.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/node.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/strict.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/strict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/style.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/variables.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/rules/variables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/test/.eslintrc" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/test/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/test/test-base.js" afterPath="$PROJECT_DIR$/node_modules/eslint-config-airbnb-base/test/test-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/eslint/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/LICENSE" afterPath="$PROJECT_DIR$/node_modules/eslint/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/README.md" afterPath="$PROJECT_DIR$/node_modules/eslint/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/bin/eslint.js" afterPath="$PROJECT_DIR$/node_modules/eslint/bin/eslint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/blank-script.json" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/blank-script.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/category-list.json" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/category-list.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/cli-options.js" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/cli-options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/environments.js" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/environments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/eslint-all.js" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/eslint-all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/eslint-recommended.js" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/eslint-recommended.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/json-schema-schema.json" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/json-schema-schema.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/conf/replacements.json" afterPath="$PROJECT_DIR$/node_modules/eslint/conf/replacements.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/api.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/ast-utils.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/ast-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/cli-engine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/cli.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/cli.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-segment.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-segment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-state.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path-state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/code-path.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/debug-helpers.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/debug-helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/fork-context.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/fork-context.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/id-generator.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/code-path-analysis/id-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/autoconfig.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config/autoconfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-file.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-initializer.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-initializer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-ops.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-ops.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-rule.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-rule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-validator.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config/config-validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/environments.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config/environments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/config/plugins.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/config/plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/eslint.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/eslint.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/file-finder.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/file-finder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/checkstyle.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/checkstyle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/codeframe.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/codeframe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/compact.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/compact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-message.html" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-message.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-page.html" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-result.html" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html-template-result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/html.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/jslint-xml.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/jslint-xml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/json.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/junit.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/junit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/stylish.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/stylish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/table.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/tap.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/tap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/unix.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/unix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/visualstudio.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/formatters/visualstudio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/ignored-paths.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/ignored-paths.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/internal-rules/.eslintrc.yml" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/internal-rules/.eslintrc.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/internal-rules/internal-consistent-docs-description.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/internal-rules/internal-consistent-docs-description.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/internal-rules/internal-no-invalid-meta.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/internal-rules/internal-no-invalid-meta.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/load-rules.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/load-rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/logging.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/logging.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/options.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rule-context.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rule-context.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/.eslintrc.yml" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/.eslintrc.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/accessor-pairs.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/accessor-pairs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-bracket-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-bracket-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-callback-return.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/array-callback-return.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-body-style.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-body-style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-parens.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-parens.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/arrow-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/block-scoped-var.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/block-scoped-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/block-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/block-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/brace-style.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/brace-style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/callback-return.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/callback-return.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/camelcase.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/camelcase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/capitalized-comments.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/capitalized-comments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/class-methods-use-this.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/class-methods-use-this.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-dangle.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-dangle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-style.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/comma-style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/complexity.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/complexity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/computed-property-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/computed-property-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/consistent-return.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/consistent-return.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/consistent-this.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/consistent-this.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/constructor-super.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/constructor-super.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/curly.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/curly.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/default-case.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/default-case.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/dot-location.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/dot-location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/dot-notation.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/dot-notation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/eol-last.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/eol-last.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/eqeqeq.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/eqeqeq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-call-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-call-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-name-matching.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-name-matching.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-names.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-names.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-style.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/func-style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/generator-star-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/generator-star-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/global-require.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/global-require.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/guard-for-in.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/guard-for-in.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/handle-callback-err.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/handle-callback-err.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-blacklist.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-blacklist.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-length.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-length.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-match.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/id-match.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/indent.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/indent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/init-declarations.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/init-declarations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/jsx-quotes.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/jsx-quotes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/key-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/key-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/keyword-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/keyword-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/line-comment-position.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/line-comment-position.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/linebreak-style.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/linebreak-style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-around-comment.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-around-comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-around-directive.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/lines-around-directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-depth.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-depth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-len.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-len.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-lines.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-lines.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-nested-callbacks.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-nested-callbacks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-params.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-params.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-statements-per-line.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-statements-per-line.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-statements.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/max-statements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/multiline-ternary.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/multiline-ternary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/new-cap.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/new-cap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/new-parens.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/new-parens.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-after-var.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-after-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-before-return.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-before-return.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-per-chained-call.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/newline-per-chained-call.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-alert.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-array-constructor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-array-constructor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-await-in-loop.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-await-in-loop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-bitwise.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-bitwise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-caller.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-caller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-case-declarations.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-case-declarations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-catch-shadow.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-catch-shadow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-class-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-class-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-compare-neg-zero.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-compare-neg-zero.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-cond-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-cond-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-confusing-arrow.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-confusing-arrow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-console.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-console.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-const-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-const-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-constant-condition.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-constant-condition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-continue.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-continue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-control-regex.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-control-regex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-debugger.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-debugger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-delete-var.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-delete-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-div-regex.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-div-regex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-args.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-args.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-class-members.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-class-members.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-keys.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-dupe-keys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-duplicate-case.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-duplicate-case.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-duplicate-imports.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-duplicate-imports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-else-return.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-else-return.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-character-class.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-character-class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-function.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-pattern.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty-pattern.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-empty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-eq-null.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-eq-null.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-eval.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-eval.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-ex-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-ex-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extend-native.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extend-native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-bind.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-boolean-cast.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-boolean-cast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-label.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-label.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-parens.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-parens.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-semi.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-extra-semi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-fallthrough.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-fallthrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-floating-decimal.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-floating-decimal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-func-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-func-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-global-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-global-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implicit-coercion.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implicit-coercion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implicit-globals.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implicit-globals.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implied-eval.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-implied-eval.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-inline-comments.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-inline-comments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-inner-declarations.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-inner-declarations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-invalid-regexp.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-invalid-regexp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-invalid-this.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-invalid-this.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-irregular-whitespace.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-irregular-whitespace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-iterator.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-iterator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-label-var.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-label-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-labels.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-labels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-lone-blocks.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-lone-blocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-lonely-if.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-lonely-if.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-loop-func.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-loop-func.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-magic-numbers.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-magic-numbers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-operators.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-operators.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-requires.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-requires.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-spaces-and-tabs.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-mixed-spaces-and-tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-spaces.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-spaces.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-str.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multi-str.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multiple-empty-lines.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-multiple-empty-lines.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-native-reassign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-native-reassign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-negated-condition.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-negated-condition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-negated-in-lhs.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-negated-in-lhs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-nested-ternary.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-nested-ternary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-func.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-func.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-object.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-require.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-require.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-symbol.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-symbol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-wrappers.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new-wrappers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-new.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-obj-calls.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-obj-calls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-octal-escape.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-octal-escape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-octal.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-octal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-param-reassign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-param-reassign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-path-concat.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-path-concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-plusplus.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-plusplus.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-process-env.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-process-env.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-process-exit.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-process-exit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-proto.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-proto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-prototype-builtins.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-prototype-builtins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-redeclare.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-redeclare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-regex-spaces.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-regex-spaces.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-globals.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-globals.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-imports.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-imports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-modules.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-modules.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-properties.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-syntax.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-restricted-syntax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-return-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-return-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-return-await.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-return-await.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-script-url.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-script-url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-self-assign.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-self-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-self-compare.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-self-compare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sequences.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sequences.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-shadow-restricted-names.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-shadow-restricted-names.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-shadow.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-shadow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-spaced-func.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-spaced-func.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sparse-arrays.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sparse-arrays.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sync.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-sync.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-tabs.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-tabs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-template-curly-in-string.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-template-curly-in-string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-ternary.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-ternary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-this-before-super.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-this-before-super.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-throw-literal.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-throw-literal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-trailing-spaces.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-trailing-spaces.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undef-init.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undef-init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undef.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undef.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undefined.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-undefined.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-underscore-dangle.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-underscore-dangle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unexpected-multiline.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unexpected-multiline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unmodified-loop-condition.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unmodified-loop-condition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unneeded-ternary.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unneeded-ternary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unreachable.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unreachable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unsafe-finally.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unsafe-finally.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unsafe-negation.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unsafe-negation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-expressions.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-expressions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-labels.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-labels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-vars.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-unused-vars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-use-before-define.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-use-before-define.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-call.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-call.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-computed-key.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-computed-key.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-concat.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-constructor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-constructor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-escape.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-escape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-rename.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-rename.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-return.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-useless-return.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-var.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-void.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-void.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-warning-comments.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-warning-comments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-whitespace-before-property.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-whitespace-before-property.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-with.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/no-with.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/nonblock-statement-body-position.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/nonblock-statement-body-position.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-curly-newline.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-curly-newline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-curly-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-curly-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-property-newline.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-property-newline.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-shorthand.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/object-shorthand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/one-var-declaration-per-line.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/one-var-declaration-per-line.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/one-var.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/one-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/operator-assignment.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/operator-assignment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/operator-linebreak.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/operator-linebreak.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/padded-blocks.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/padded-blocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-arrow-callback.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-arrow-callback.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-const.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-const.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-destructuring.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-destructuring.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-numeric-literals.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-numeric-literals.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-promise-reject-errors.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-promise-reject-errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-reflect.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-reflect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-rest-params.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-rest-params.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-spread.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-spread.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-template.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/prefer-template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/quote-props.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/quote-props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/quotes.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/quotes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/radix.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/radix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-await.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-await.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-jsdoc.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-jsdoc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-yield.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/require-yield.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/rest-spread-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/rest-spread-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/semi-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/semi-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/semi.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/semi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-imports.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-imports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-keys.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-keys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-vars.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/sort-vars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-before-blocks.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-before-blocks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-before-function-paren.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-before-function-paren.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-in-parens.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-in-parens.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-infix-ops.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-infix-ops.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-unary-ops.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/space-unary-ops.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/spaced-comment.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/spaced-comment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/strict.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/strict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/symbol-description.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/symbol-description.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/template-curly-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/template-curly-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/template-tag-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/template-tag-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/unicode-bom.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/unicode-bom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/use-isnan.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/use-isnan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/valid-jsdoc.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/valid-jsdoc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/valid-typeof.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/valid-typeof.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/vars-on-top.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/vars-on-top.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/wrap-iife.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/wrap-iife.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/wrap-regex.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/wrap-regex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/yield-star-spacing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/yield-star-spacing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/rules/yoda.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/rules/yoda.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/testers/event-generator-tester.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/testers/event-generator-tester.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/testers/rule-tester.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/testers/rule-tester.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/timing.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/timing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/backward-token-comment-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/backward-token-comment-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/backward-token-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/backward-token-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/cursors.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/cursors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/decorative-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/decorative-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/filter-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/filter-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/forward-token-comment-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/forward-token-comment-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/forward-token-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/forward-token-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/index.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/limit-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/limit-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/padded-token-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/padded-token-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/skip-cursor.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/skip-cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/utils.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/token-store/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/comment-event-generator.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/comment-event-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/fix-tracker.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/fix-tracker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/glob-util.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/glob-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/glob.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/glob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/hash.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/hash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/keywords.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/keywords.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/module-resolver.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/module-resolver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/node-event-generator.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/node-event-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/npm-util.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/npm-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/path-util.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/path-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/patterns/letters.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/patterns/letters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/rule-fixer.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/rule-fixer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code-fixer.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code-fixer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code-util.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code-util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/source-code.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/traverser.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/traverser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/lib/util/xml-escape.js" afterPath="$PROJECT_DIR$/node_modules/eslint/lib/util/xml-escape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/messages/extend-config-missing.txt" afterPath="$PROJECT_DIR$/node_modules/eslint/messages/extend-config-missing.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/messages/no-config-found.txt" afterPath="$PROJECT_DIR$/node_modules/eslint/messages/no-config-found.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/messages/plugin-missing.txt" afterPath="$PROJECT_DIR$/node_modules/eslint/messages/plugin-missing.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/messages/whitespace-found.txt" afterPath="$PROJECT_DIR$/node_modules/eslint/messages/whitespace-found.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/eslint/package.json" afterPath="$PROJECT_DIR$/node_modules/eslint/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/espree/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/LICENSE" afterPath="$PROJECT_DIR$/node_modules/espree/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/README.md" afterPath="$PROJECT_DIR$/node_modules/espree/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/espree.js" afterPath="$PROJECT_DIR$/node_modules/espree/espree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/lib/ast-node-types.js" afterPath="$PROJECT_DIR$/node_modules/espree/lib/ast-node-types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/lib/comment-attachment.js" afterPath="$PROJECT_DIR$/node_modules/espree/lib/comment-attachment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/lib/features.js" afterPath="$PROJECT_DIR$/node_modules/espree/lib/features.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/lib/token-translator.js" afterPath="$PROJECT_DIR$/node_modules/espree/lib/token-translator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/lib/visitor-keys.js" afterPath="$PROJECT_DIR$/node_modules/espree/lib/visitor-keys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/espree/package.json" afterPath="$PROJECT_DIR$/node_modules/espree/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/.lint" afterPath="$PROJECT_DIR$/node_modules/event-emitter/.lint" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/.npmignore" afterPath="$PROJECT_DIR$/node_modules/event-emitter/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/.testignore" afterPath="$PROJECT_DIR$/node_modules/event-emitter/.testignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/event-emitter/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/CHANGES" afterPath="$PROJECT_DIR$/node_modules/event-emitter/CHANGES" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/LICENSE" afterPath="$PROJECT_DIR$/node_modules/event-emitter/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/README.md" afterPath="$PROJECT_DIR$/node_modules/event-emitter/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/all-off.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/all-off.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/benchmark/many-on.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/benchmark/many-on.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/benchmark/single-on.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/benchmark/single-on.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/emit-error.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/emit-error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/has-listeners.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/has-listeners.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/index.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/package.json" afterPath="$PROJECT_DIR$/node_modules/event-emitter/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/pipe.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/pipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/test/all-off.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/test/all-off.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/test/emit-error.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/test/emit-error.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/test/has-listeners.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/test/has-listeners.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/test/index.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/test/pipe.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/test/pipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/test/unify.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/test/unify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/event-emitter/unify.js" afterPath="$PROJECT_DIR$/node_modules/event-emitter/unify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/globals/globals.json" afterPath="$PROJECT_DIR$/node_modules/globals/globals.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/globals/index.js" afterPath="$PROJECT_DIR$/node_modules/globals/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/globals/license" afterPath="$PROJECT_DIR$/node_modules/globals/license" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/globals/package.json" afterPath="$PROJECT_DIR$/node_modules/globals/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/globals/readme.md" afterPath="$PROJECT_DIR$/node_modules/globals/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ignore/LICENSE-MIT" afterPath="$PROJECT_DIR$/node_modules/ignore/LICENSE-MIT" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ignore/README.md" afterPath="$PROJECT_DIR$/node_modules/ignore/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ignore/ignore.js" afterPath="$PROJECT_DIR$/node_modules/ignore/ignore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ignore/package.json" afterPath="$PROJECT_DIR$/node_modules/ignore/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/interpret/CHANGELOG" afterPath="$PROJECT_DIR$/node_modules/interpret/CHANGELOG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/interpret/LICENSE" afterPath="$PROJECT_DIR$/node_modules/interpret/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/interpret/README.md" afterPath="$PROJECT_DIR$/node_modules/interpret/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/interpret/index.js" afterPath="$PROJECT_DIR$/node_modules/interpret/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/interpret/package.json" afterPath="$PROJECT_DIR$/node_modules/interpret/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/js-yaml/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/LICENSE" afterPath="$PROJECT_DIR$/node_modules/js-yaml/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/README.md" afterPath="$PROJECT_DIR$/node_modules/js-yaml/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/bin/js-yaml.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/bin/js-yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.min.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/dist/js-yaml.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/index.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/common.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/dumper.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/dumper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/exception.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/exception.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/loader.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/mark.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/mark.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/core.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/default_full.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/default_full.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/default_safe.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/default_safe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/failsafe.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/failsafe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/json.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/schema/json.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/binary.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/binary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/bool.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/bool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/float.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/float.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/int.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/int.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/js/function.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/js/function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/js/regexp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/js/undefined.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/map.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/merge.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/merge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/null.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/null.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/omap.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/omap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/pairs.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/pairs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/seq.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/seq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/set.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/str.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/str.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/timestamp.js" afterPath="$PROJECT_DIR$/node_modules/js-yaml/lib/js-yaml/type/timestamp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/js-yaml/package.json" afterPath="$PROJECT_DIR$/node_modules/js-yaml/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/.npmignore" afterPath="$PROJECT_DIR$/node_modules/readable-stream/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/.npmignore" afterPath="$PROJECT_DIR$/node_modules/string_decoder/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" afterPath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/README.md" afterPath="$PROJECT_DIR$/node_modules/string_decoder/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,12 +704,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="message.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/message.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,9 +779,11 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <marker date="1491905674221" expanded="true" signature="61:190" ph="{&quot;express&quot;: &quot;^4.15.2&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +803,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="package_json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -81,7 +817,12 @@
       <list>
         <option value="$PROJECT_DIR$/Test2" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/routes/index.js" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/services/config.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/models/message.js" />
       </list>
     </option>
   </component>
@@ -101,10 +842,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1864" />
-    <option name="height" value="1096" />
+    <option name="x" value="917" />
+    <option name="width" value="938" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -121,7 +861,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,14 +873,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="API" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chat" />
     <property name="js.eslint.eslintPackage" value="D:\Alexandre\SUPINFO\B.Sc\3PJT\API\node_modules\eslint" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -151,6 +919,12 @@
     <property name="javascript.nodejs.core.library.configured.version" value="7.7.2" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Alexandre\SUPINFO\B.Sc\3PJT\API" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.Nodejs">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -259,33 +1033,36 @@
       <workItem from="1489253680548" duration="2285000" />
       <workItem from="1489316778707" duration="1240000" />
       <workItem from="1489431641179" duration="560000" />
-      <workItem from="1489432361338" duration="1316000" />
+      <workItem from="1489432361338" duration="1782000" />
+      <workItem from="1490735877867" duration="3032000" />
+      <workItem from="1491144230254" duration="91000" />
+      <workItem from="1491332426919" duration="17019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6674000" />
+    <option name="totallyTimeSpent" value="27282000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1864" height="1096" extended-state="6" />
+    <frame x="917" y="0" width="938" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12445887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20173536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33164302" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33367452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.326572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,9 +1078,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -317,9 +1104,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <marker date="1491905674221" expanded="true" signature="61:190" ph="{&quot;express&quot;: &quot;^4.15.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <marker date="1491905674221" expanded="true" signature="61:190" ph="{&quot;express&quot;: &quot;^4.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -351,7 +1184,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1491905674221" expanded="true" signature="61:190" ph="{&quot;express&quot;: &quot;^4.15.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1491905674221" expanded="true" signature="61:190" ph="{&quot;express&quot;: &quot;^4.15.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1491905674221" expanded="true" signature="61:190" ph="{&quot;express&quot;: &quot;^4.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -375,7 +1278,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1491905674221" expanded="true" signature="61:190" ph="{&quot;express&quot;: &quot;^4.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -413,14 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.eslintrc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -429,10 +1326,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1491905674221" expanded="true" signature="61:190" ph="{&quot;express&quot;: &quot;^4.15.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="457" column="0" lean-forward="false" selection-start-line="457" selection-start-column="0" selection-end-line="457" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
