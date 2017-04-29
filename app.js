@@ -2,23 +2,17 @@ const http = require('http');
 const express = require('express');
 const mongoose = require('mongoose');
 const socketIo = require('socket.io');
+const cors = require('cors');
 const config = require('./services/config.js');
+const sockets = require('./middlewares/sockets.js');
 
 const app = express();
 const server = new http.Server(app);
 const io = socketIo(server);
+sockets(io);
 
-
-io.on('connection', (socket) => {
-  console.log('a user connected');
-  socket.on('disconnect', () => {
-    console.log('user disconnected');
-  });
-  socket.on('chat', (msg) => {
-    socket.broadcast.emit('chat', msg);
-  });
-});
-
+app.use(cors());
+app.options('*', cors());
 
 function listen() {
   server.listen(config.get('port'));
@@ -35,6 +29,7 @@ connect()
     .on('error', console.log)
     .on('disconnected', connect)
     .once('open', listen);
+
 
 app.use('/quotes', require('./routes/index.js'));
 
