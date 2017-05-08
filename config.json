@@ -2,5 +2,9 @@
   "port": 3000,
   "mongodb": {
       "uri": "mongodb://localhost/qwirkdb"
+  },
+  "security": {
+    "tokenLife" : 3600,
+    "secret": "9c072c1f39c44656a63435e4fa83abfe"
   }
 }
