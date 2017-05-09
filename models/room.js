@@ -31,4 +31,17 @@ const Room = new Schema({
 //   },
 // });
 
+
+// Object.assign(Room.statics, {
+  // * getGroupsById(userId, typeOfRoom) {
+  //   yield this.find({ 'users._id': userId, typeOfRoom }, (err, rooms) => {
+  //     console.log(rooms);
+  //     return rooms;
+  //   });
+            // .sort('createdAt') || [];
+    // console.log(test);
+    // return test;
+//     },
+// });
+
 module.exports = mongoose.model('Room', Room);

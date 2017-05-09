@@ -8,9 +8,11 @@ const router = express.Router();
 // router.use(authentication);
 
 router.get('/', (req, res) => {
-  Room.find({}, (err, docs) => {
-    res.json(docs);
-  });
+  const { query } = req;
+  Room.find({ 'users._id': query.userId, typeOfRoom: query.typeOfRoom })
+      .exec((err, rooms) => {
+        res.json(rooms);
+      });
 });
 
 router.get('/messages', (req, res) => {
@@ -25,6 +27,7 @@ router.post('/', (req, res, next) => {
   const { body } = req;
   const room = new Room({
     name: body.roomName,
+    typeOfRoom: body.typeOfRoom,
   });
   room.users.push(body.user);
   room.save((err, savedRoom) => {

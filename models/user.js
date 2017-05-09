@@ -24,18 +24,14 @@ const User = new Schema({
   dateOfBirth: Date,
   bio: String,
   contacts: [{
-    _id: String,
+    _id: Schema.Types.ObjectId,
   }],
-  // groups: [{
-  //   _id: String,
-  //   canJoin: Boolean,
-  // }],
-  // channels: [{
-  //   _id: String,
-  // }],
   status: String,
-  hasBeenInvited: [{
-    _id: String,
+  friendRequestSent: [{
+    _id: Schema.Types.ObjectId,
+  }],
+  friendRequestReceived: [{
+    _id: Schema.Types.ObjectId,
   }],
   registrationDate: {
     default: new Date(),
