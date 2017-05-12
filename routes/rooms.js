@@ -7,6 +7,8 @@ const router = express.Router();
 
 // router.use(authentication);
 
+// GET on /api/rooms
+// Search for every groups / channels / privates conversations
 router.get('/', (req, res) => {
   const { query } = req;
   Room.find({ 'users._id': query.userId, typeOfRoom: query.typeOfRoom })
@@ -15,6 +17,8 @@ router.get('/', (req, res) => {
       });
 });
 
+// GET on /api/rooms/messages
+// Search for every messages in a conversation
 router.get('/messages', (req, res) => {
   Message.find({ room: req.query.room })
       .populate('user room')
@@ -23,6 +27,8 @@ router.get('/messages', (req, res) => {
       });
 });
 
+// POST on /api/rooms
+// Handle the creation of a new group / channel / private conversation
 router.post('/', (req, res, next) => {
   const { body } = req;
   const room = new Room({
@@ -30,6 +36,7 @@ router.post('/', (req, res, next) => {
     typeOfRoom: body.typeOfRoom,
   });
   room.users.push(body.user);
+  room.moderators.push(body.user);
   room.save((err, savedRoom) => {
     res.json({
       room: savedRoom,

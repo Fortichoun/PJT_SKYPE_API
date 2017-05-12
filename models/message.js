@@ -12,10 +12,7 @@ const Message = new Schema({
     ref: 'Room',
   },
   content: String,
-  createdAt: {
-    default: new Date(),
-    type: Date,
-  },
+  createdAt: Date,
 }, {
   collection: 'messages',
   versionKey: false,
