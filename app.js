@@ -34,6 +34,7 @@ connect()
 app.use(bodyParser.json({ type: ['json', 'application/vnd.api+json'] }));
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// ROUTES
 app.use('/api/rooms', require('./routes/rooms.js'));
 app.use('/api/authenticate', require('./routes/authenticate.js'));
 app.use('/api/register', require('./routes/register.js'));

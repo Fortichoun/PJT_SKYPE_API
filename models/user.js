@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const Room = require('./room.js');
 const bcrypt = require('bcrypt');
 
 const Schema = mongoose.Schema;
@@ -42,8 +41,7 @@ const User = new Schema({
   versionKey: false,
 });
 
-// User.index({ email: 'text' }, { unique: true });
-
+// Handle the hash of user's password
 User.virtual('password')
     .set(function (password) {
       if (!password) {
@@ -55,10 +53,7 @@ User.virtual('password')
     .get(function () { return this.hashedPassword; });
 
 Object.assign(User.methods, {
-  getRooms(user) {
-    return Room.find({ users: user })
-                .sort('createdAt') || [];
-  },
+    // Confront plain text password (when user log in) with hashed db's password
   isRightPassword(password) {
     return bcrypt.compareSync(password, this.hashedPassword);
   },

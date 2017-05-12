@@ -1,6 +1,8 @@
 const Message = require('../models/message.js');
 const User = require('../models/user.js');
 
+// Socket IO
+// Handle reception of a new message & send back this message to front-end
 module.exports = (io, next) => {
   io.on('connection', (socket) => {
     console.log('a user connected');
@@ -12,7 +14,7 @@ module.exports = (io, next) => {
         user: data.user,
         content: data.message,
         room: data.room,
-        created: new Date(),
+        createdAt: data.createdAt,
       });
       message.save((err, savedMessage) => {
         User.findOne({ _id: savedMessage.user }, (error, user) => {
