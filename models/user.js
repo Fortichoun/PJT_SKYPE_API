@@ -7,7 +7,6 @@ const saltRounds = 10;
 
 const User = new Schema({
   userName: String,
-  // lastName: String,
   email: {
     type: String,
     required: true,
@@ -23,14 +22,23 @@ const User = new Schema({
   dateOfBirth: Date,
   bio: String,
   contacts: [{
-    _id: Schema.Types.ObjectId,
+    _id: {
+      type: Schema.Types.ObjectId,
+    },
+    ref: this,
   }],
   status: String,
   friendRequestSent: [{
-    _id: Schema.Types.ObjectId,
+    _id: {
+      type: Schema.Types.ObjectId,
+    },
+    ref: this,
   }],
   friendRequestReceived: [{
-    _id: Schema.Types.ObjectId,
+    _id: {
+      type: Schema.Types.ObjectId,
+    },
+    ref: this,
   }],
   registrationDate: {
     default: new Date(),
