@@ -40,6 +40,12 @@ const User = new Schema({
     },
     ref: this,
   }],
+  friendRequestRefused: [{
+    _id: {
+      type: Schema.Types.ObjectId,
+    },
+    ref: this,
+  }],
   registrationDate: {
     default: new Date(),
     type: Date,

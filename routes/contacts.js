@@ -30,12 +30,21 @@ router.get('/allContacts', (req, res) => {
 router.post('/', (req, res) => {
   co(function* () {
     const { body } = req;
-    const user = yield User.findOne({ _id: body.contactId });
-    user.friendRequestReceived.push(body.userId);
-    yield user.save();
     const newUser = yield User.findOne({ _id: body.userId });
-    newUser.friendRequestSent.push(body.contactId);
-    yield newUser.save();
+    const user = yield User.findOne({ _id: body.contactId });
+    if (newUser.friendRequestRefused.map(u => u._id.toString()).indexOf(body.contactId) !== -1) {
+      newUser.contacts.push(body.contactId);
+      newUser.friendRequestRefused.pull({ _id: body.contactId });
+      yield newUser.save();
+      user.contacts.push(body.userId);
+      user.friendRequestSent.pull({ _id: body.userId });
+      yield user.save();
+    } else {
+      user.friendRequestReceived.push(body.userId);
+      yield user.save();
+      newUser.friendRequestSent.push(body.contactId);
+      yield newUser.save();
+    }
     yield User.populate(newUser, { path: 'friendRequestSent._id friendRequestReceived._id contacts._id' });
     res.json(newUser);
   });
@@ -66,6 +75,7 @@ router.post('/refuse', (req, res) => {
     const { body } = req;
     const user = yield User.findOne({ _id: body.userId });
     user.friendRequestReceived.pull({ _id: body.invitationId });
+    user.friendRequestRefused.push(body.invitationId);
     yield user.save();
     yield User.populate(user, { path: 'friendRequestSent._id friendRequestReceived._id contacts._id' });
     res.json(user);
