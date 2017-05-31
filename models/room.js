@@ -1,12 +1,15 @@
 const mongoose = require('mongoose');
-// const Message = require('../models/message.js');
+const User = require('../models/user.js');
 
 const Schema = mongoose.Schema;
 
 const Room = new Schema({
   name: String,
   users: [{
-    _id: Schema.Types.ObjectId,
+    _id: {
+      type: Schema.Types.ObjectId,
+      ref: 'User',
+    },
   }],
   moderators: [{
     _id: Schema.Types.ObjectId,
