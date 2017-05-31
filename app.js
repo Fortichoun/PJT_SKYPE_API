@@ -39,4 +39,5 @@ app.use('/api/rooms', require('./routes/rooms.js'));
 app.use('/api/authenticate', require('./routes/authenticate.js'));
 app.use('/api/register', require('./routes/register.js'));
 app.use('/api/contacts', require('./routes/contacts.js'));
+app.use('/api/settings', require('./routes/user.js'));
 

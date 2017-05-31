@@ -2,6 +2,7 @@ const Message = require('../models/message.js');
 const Room = require('../models/room.js');
 const express = require('express');
 // const authentication = require('../middlewares/authentication.js');
+const co = require('co');
 
 const router = express.Router();
 
@@ -29,19 +30,29 @@ router.get('/messages', (req, res) => {
 
 // POST on /api/rooms
 // Handle the creation of a new group / channel / private conversation
-router.post('/', (req, res, next) => {
+router.post('/', (req, res) => {
   const { body } = req;
-  const room = new Room({
-    name: body.roomName,
-    typeOfRoom: body.typeOfRoom,
-  });
-  room.users.push(body.user);
-  room.moderators.push(body.user);
-  room.save((err, savedRoom) => {
-    res.json({
-      room: savedRoom,
+  co(function* () {
+    const room = new Room({
+      name: body.roomName,
+      typeOfRoom: body.typeOfRoom,
     });
-  }).catch(err => next(err));
+    room.users.push(body.user);
+    body.usersInRoom.map(user => room.users.push(user));
+    room.moderators.push(body.user);
+    yield room.save();
+    res.json(room);
+  });
+});
+
+// GET on /api/rooms/usersInRoom
+// Search for every users in the room
+router.get('/usersInRoom', (req, res) => {
+  co(function* () {
+    const room = yield Room.findOne({ _id: req.query.room });
+    yield Room.populate(room, { path: 'users._id' });
+    res.json(room);
+  });
 });
 
 module.exports = router;

@@ -20,7 +20,10 @@ const User = new Schema({
     something: Boolean,
   },
   dateOfBirth: Date,
-  bio: String,
+  bio: {
+    type: String,
+    default: '',
+  },
   contacts: [{
     _id: {
       type: Schema.Types.ObjectId,
