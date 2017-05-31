@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const Schema = mongoose.Schema;
 // const plainPasswordSymbol = Symbol('plainPassword');
@@ -7,7 +7,6 @@ const saltRounds = 10;
 
 const User = new Schema({
   userName: String,
-  // lastName: String,
   email: {
     type: String,
     required: true,

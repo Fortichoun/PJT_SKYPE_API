@@ -14,7 +14,7 @@ router.post('/', (req, res, next) => {
     email: body.email,
     password: body.password,
     picture: body.picture,
-    dateOfBirth: body.dateOfBirth,
+    birthDate: body.birthDate,
     bio: body.bio,
   });
 

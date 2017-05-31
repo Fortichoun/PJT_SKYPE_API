@@ -21,4 +21,8 @@ router.post('/', (req, res, next) => {
         }).catch(err => next(err));
 });
 
+router.get('/video', (req, res) => {
+  res.sendFile();
+});
+
 module.exports = router;
