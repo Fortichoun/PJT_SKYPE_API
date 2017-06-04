@@ -2,7 +2,7 @@
   "name": "Qwirk",
   "version": "0.0.1",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "bcrypt": "^1.0.2",
     "body-parser": "^1.17.1",
     "co": "^4.6.0",
     "cors": "^2.8.3",
