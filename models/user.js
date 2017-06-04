@@ -19,7 +19,7 @@ const User = new Schema({
   settings: {
     something: Boolean,
   },
-  dateOfBirth: Date,
+  birthDate: Date,
   bio: {
     type: String,
     default: '',

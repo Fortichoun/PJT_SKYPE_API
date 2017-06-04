@@ -33,14 +33,17 @@ router.get('/messages', (req, res) => {
 router.post('/', (req, res) => {
   const { body } = req;
   co(function* () {
-    const room = new Room({
-      name: body.roomName,
-      typeOfRoom: body.typeOfRoom,
-    });
-    room.users.push(body.user);
-    body.usersInRoom.map(user => room.users.push(user));
-    room.moderators.push(body.user);
-    yield room.save();
+    let room = yield Room.findOne({ name: body.roomName });
+    if (!room) {
+      room = new Room({
+        name: body.roomName,
+        typeOfRoom: body.typeOfRoom,
+      });
+      room.users.push(body.user);
+      body.usersInRoom.map(user => room.users.push(user));
+      if (body.typeOfRoom !== 'contacts') room.moderators.push(body.user);
+      yield room.save();
+    }
     res.json(room);
   });
 });

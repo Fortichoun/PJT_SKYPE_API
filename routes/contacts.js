@@ -82,5 +82,21 @@ router.post('/refuse', (req, res) => {
   });
 });
 
+// POST on api/contacts/remove
+// Handle the remove of a friend
+router.post('/remove', (req, res) => {
+  co(function* () {
+    const { body } = req;
+    const contact = yield User.findOne({ _id: body.contactId });
+    contact.contacts.pull({ _id: body.userId });
+    yield contact.save();
+    const user = yield User.findOne({ _id: body.userId });
+    user.contacts.pull({ _id: body.contactId });
+    yield user.save();
+    yield User.populate(user, { path: 'friendRequestSent._id friendRequestReceived._id contacts._id' });
+    res.json(user);
+  });
+});
+
 
 module.exports = router;
