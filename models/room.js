@@ -21,6 +21,7 @@ const Room = new Schema({
     default: new Date(),
     type: Date,
   },
+  lastMessage: Date,
 }, {
   collection: 'rooms',
   versionKey: false,

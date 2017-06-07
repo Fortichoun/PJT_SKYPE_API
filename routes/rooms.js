@@ -13,14 +13,13 @@ const router = express.Router();
 router.get('/', (req, res) => {
   const { query } = req;
   co(function* () {
-    let rooms = null;
+    let rooms = yield Room.find({ 'users._id': query.userId, typeOfRoom: query.typeOfRoom })
+          .sort({ lastMessage: -1 });
     if (query.typeOfRoom === 'channels') {
-      rooms = yield Room.find({ typeOfRoom: query.typeOfRoom });
-      //     {
-      //   sort: { 'users._id': '591240fb49e77e1414484a48' },
-      // });
-    } else if (query.typeOfRoom === 'groups') {
-      rooms = yield Room.find({ 'users._id': query.userId, typeOfRoom: query.typeOfRoom });
+      const roomsUserIsNotIn = yield Room.find({ typeOfRoom: query.typeOfRoom, 'users._id': { $ne: query.userId } })
+          .sort({ lastMessage: -1 });
+      if (rooms.length === 0) rooms = roomsUserIsNotIn;
+      else if (roomsUserIsNotIn.length !== 0) rooms = rooms.concat(roomsUserIsNotIn);
     }
     res.json(rooms);
   });
@@ -41,9 +40,12 @@ router.get('/messages', (req, res) => {
 router.post('/', (req, res) => {
   const { body } = req;
   co(function* () {
+    let room = null;
     const users = [body.user];
     body.usersInRoom.map(user => users.push(user));
-    let room = yield Room.findOne({ typeOfRoom: body.typeOfRoom, 'users._id': { $all: users } });
+    if (body.typeOfRoom === 'contacts') {
+      room = yield Room.findOne({ typeOfRoom: body.typeOfRoom, 'users._id': { $all: users } });
+    }
     if (!room) {
       room = new Room({
         name: body.roomName,

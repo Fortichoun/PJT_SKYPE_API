@@ -1,9 +1,10 @@
 const Message = require('../models/message.js');
-const User = require('../models/user.js');
+const Room = require('../models/room.js');
+const co = require('co');
 
 // Socket IO
 // Handle reception of a new message & send back this message to front-end
-module.exports = (io, next) => {
+module.exports = (io) => {
   io.on('connection', (socket) => {
     console.log('a user connected');
     socket.on('disconnect', () => {
@@ -16,14 +17,23 @@ module.exports = (io, next) => {
         room: data.room,
         createdAt: data.createdAt,
       });
-      message.save((err, savedMessage) => {
-        User.findOne({ _id: savedMessage.user }, (error, user) => {
-          savedMessage.user = user;
-        }).then(() => {
-          io.emit('messageCreated', savedMessage);
-        });
-      }).catch(e => next(e));
+      co(function* () {
+        yield message.save();
+        yield Message.populate(message, { path: 'user' });
+        const room = yield Room.findOne({ _id: message.room });
+        room.lastMessage = message.createdAt;
+        yield room.save();
+        io.emit('messageCreated', message);
+      });
     });
+      //       message.save((err, savedMessage) => {
+      //   User.findOne({ _id: savedMessage.user }, (error, user) => {
+      //     savedMessage.user = user;
+      //   }).then(() => {
+      //     io.emit('messageCreated', savedMessage);
+      //   });
+      // }).catch(e => next(e));
+    // });
   });
 };
 
