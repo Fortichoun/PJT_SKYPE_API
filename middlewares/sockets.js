@@ -26,14 +26,6 @@ module.exports = (io) => {
         io.emit('messageCreated', message);
       });
     });
-      //       message.save((err, savedMessage) => {
-      //   User.findOne({ _id: savedMessage.user }, (error, user) => {
-      //     savedMessage.user = user;
-      //   }).then(() => {
-      //     io.emit('messageCreated', savedMessage);
-      //   });
-      // }).catch(e => next(e));
-    // });
   });
 };
 
